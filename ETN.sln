@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETN.Domain", "src\ETN.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETN.Infrastructure", "src\ETN.Infrastructure\ETN.Infrastructure.csproj", "{C24E1153-8779-9657-EA49-9C8D0CBCB769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETN.API.Tests", "test\ETN.API.Tests\ETN.API.Tests.csproj", "{C8C94958-AF2A-411E-BB25-6F5812A53A7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C24E1153-8779-9657-EA49-9C8D0CBCB769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24E1153-8779-9657-EA49-9C8D0CBCB769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24E1153-8779-9657-EA49-9C8D0CBCB769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C94958-AF2A-411E-BB25-6F5812A53A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C94958-AF2A-411E-BB25-6F5812A53A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C94958-AF2A-411E-BB25-6F5812A53A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C94958-AF2A-411E-BB25-6F5812A53A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
